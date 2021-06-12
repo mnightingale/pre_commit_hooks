@@ -1,0 +1,7 @@
+- id: detect-unencrypted-ansible-vault
+  name: Detect Unencrypted Ansible Vault
+  description: Detects the presence of unencrypted ansible vaults keys
+  entry: detect-unencrypted-ansible-vault
+  language: python
+  files: .*\.?vault(.ya?ml)?$
+  types: [text]
